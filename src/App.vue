@@ -44,7 +44,7 @@ import Swal from 'sweetalert2'
               })
               axios({
                 method: 'post',
-                url: '/api/upload',
+                url: 'http://localhost:3000',
                 data: bodyFormData
               })
                 .then(({ data }) => {
